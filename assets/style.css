@@ -4,3 +4,14 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  /* header */
+  header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to bottom, #f7efdb, #e2d5b7 60%, #c9b084);
+    padding: 1rem 1rem;
+    width: 100vw;
+  }
