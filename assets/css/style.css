@@ -27,7 +27,7 @@ body {
 
 /* header */
 header {
-  position: relative;
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -40,7 +40,7 @@ header {
   font-size: 2.5rem;
   text-align: center;
   color: #b1454a;
-  padding-top: 30px;
+  padding-top: 80px;
   z-index: -3;
 }
 
@@ -153,4 +153,35 @@ label[for="menu-toggle"] {
   background-color: #fff; 
   color: #8c7851; 
   border: 2px solid #8c7851; 
+}
+
+/* Quotes Stylings */
+
+.quote {
+  font-family: "IM Fell Great Primer SC", sans-serif;
+  font-size: 1.3rem;
+  margin: 20px;
+  padding: 20px;
+  display: none; /* Hide all quotes by default */
+}
+
+.quote-container {
+  display: flex;
+  position: absolute;
+  flex-wrap: wrap;
+  z-index: 99;
+  width: 100%;
+  padding-left: 15px;
+}
+
+.quote {
+  padding-left: 0.5rem;
+  transform: scale(0.5rem);
+  transition: all 1s ease-out;
+}
+
+#quote1 {
+  display: block; /* Show quote 1 */
+  word-spacing: 2px;
+  text-align: center;
 }
