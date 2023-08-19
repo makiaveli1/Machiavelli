@@ -164,7 +164,7 @@ label[for="menu-toggle"] {
   font-size: 1.3rem;
   margin: 20px;
   padding: 20px;
-  display: none; /* Hide all quotes by default */
+  display: none; 
   background: rgba(0, 0, 0, 0.5);
   padding: 10px; 
   color: #fff; 
@@ -204,7 +204,7 @@ label[for="menu-toggle"] {
   position: relative;
   display: block; 
   word-spacing: 2px;
-  top: 189.7rem; 
+  top: 185rem; 
 }
 
 /* Youtube video */
@@ -230,10 +230,11 @@ label[for="menu-toggle"] {
 .literary-works {
   position: relative;
   display: block;
-  top: 80rem;
+  top: 78rem;
   width: 100%;
   padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-  background-color: #f9f4e0; /* Vintage background color */
+  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #f9f4e0; 
   transition: all 0.5s;
   z-index: -1;
 }
@@ -242,26 +243,26 @@ label[for="menu-toggle"] {
   text-align: center;
   font-size: 28px;
   margin-bottom: 0.5rem;
-  color: #5a4e42; /* Vintage text color */
+  color: #5a4e42; 
 }
 
 .works-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Centering the works on the screen */
-  margin: 5rem auto;
+  justify-content: center; 
+  margin: 3rem auto;
 }
 
 .work {
-  width: 30%; /* Adjust as needed for responsiveness */
-  text-align: center; /* Centering the images and titles */
+  width: 30%; 
+  text-align: center; 
   margin: 1rem;
 }
 
 .work img {
-  max-width: 100%; /* Ensuring the images are responsive */
+  max-width: 100%; 
   height: auto;
-  display: block; /* Centering the images */
+  display: block; 
   margin: 0 auto;
 }
 
@@ -277,21 +278,21 @@ label[for="menu-toggle"] {
 /* Footer Styles */
 footer {
   list-style-type: none;
-  color: #b33a3a; /* Text color */
-  padding: 5px 0; /* Padding around the content */
-  text-align: center; /* Centering the text */
-  word-spacing: 20px; /* Spacing between words */
-  position: relative; /* Absolute positioning */
-  left: 0; /* Aligning to the left */
-  top: 85rem; /* Sticking to the bottom */
-  width: 100%; /* Full width */
+  color: #b33a3a; 
+  padding: 5px 0; 
+  text-align: center; 
+  word-spacing: 20px; 
+  position: relative;
+  left: 0; 
+  top: 85rem; 
+  width: 100%; 
   z-index: 1;
 }
 
 .footer-link {
-  list-style-type: none; /* List style type */
-  text-decoration: none; /* Removing underline */
-  color: #5e3939; /* Text color for links */
+  list-style-type: none; 
+  text-decoration: none; 
+  color: #5e3939; 
 }
 
 #site-footer li {
