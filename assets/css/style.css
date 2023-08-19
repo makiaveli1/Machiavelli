@@ -25,6 +25,10 @@ body {
   overflow-x: hidden;
 }
 
+main {
+  flex: 1 0 auto;
+}
+
 /* header */
 header {
   position: fixed;
@@ -130,6 +134,69 @@ label[for="menu-toggle"] {
 .background-img:hover {
   opacity: 0.5;
   transform: scale(1.05);
+}
+
+/* Biography page hero img */
+
+.biography-hero-image {
+  width: 100%; /* Taking up the full width of the page on mobile */
+  height: auto; /* Keeping the original aspect ratio */
+  display: block; /* Centering the image */
+  position: relative; /* Enabling positioning within the container */
+  z-index: -1;
+}
+
+.biography-hero-image img {
+  width: 100%; /* Filling the entire width of the container */
+  height: auto; /* Maintaining the original aspect ratio */
+  display: block; /* Centering the image */
+  margin: 0 auto; /* Centering the image horizontally */
+  border-bottom-left-radius: 5%; /* Slight circular effect on the bottom left corner */
+  border-bottom-right-radius: 5%; /* Slight circular effect on the bottom right corner */
+  transition: all 0.9s;
+  box-shadow: 0px 0px 10px rgba(236, 23, 23, 0.658);
+}
+
+/* Dates */
+.dates {
+  position: relative; /* Positioning relative to the parent container */
+  width: 100%; /* Filling the width of the container */
+  display: flex; /* Using flexbox for alignment */
+  flex-direction: row; /* Aligning the elements in a column */
+  align-items: center; /* Centering the content horizontally */
+  text-align: center; /* Centering the text */
+  font-family: "IM Fell Great Primer SC", sans-serif; /* Using the existing font */
+  margin-top: 1rem; /* Adding space above the dates */
+  padding-bottom: 1rem;
+  transition: all 1s;
+  box-shadow: 0px 0px 10px rgba(236, 23, 23, 0.658);
+  border-radius: 10px;
+}
+
+.born,
+.died {
+  font-size: 10px; /* Adjusting the font size for mobile devices */
+  transition: all 0.5s;
+}
+
+.date {
+  font-size: 28px; /* Adjusting the font size for the dates */
+  font-weight: bold; /* Making the dates bold */
+  margin-bottom: 5px; /* Adding space below the dates */
+  transition: all 0.9s;
+}
+
+.separator {
+  display: block; /* Hiding the separator on mobile devices */
+  width: 50%; /* Filling the width of the container */
+  font-size: large;
+}
+
+.location {
+  font-size: 18px; /* Adjusting the font size for the location */
+  font-style: italic; /* Styling the location */
+  margin-bottom: 10px; /* Adding space below the location */
+  transition: all 1.5s;
 }
 
 /* explore-more button */
