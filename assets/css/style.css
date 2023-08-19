@@ -34,6 +34,7 @@ header {
   background: linear-gradient(to bottom, #f7efdb, #e2d5b7 60%, #c9b084);
   padding: 1rem 1rem;
   width: 100vw;
+  z-index: 99;
 }
 
 #heading {
@@ -147,6 +148,7 @@ label[for="menu-toggle"] {
   font-family: "IM Fell Great Primer SC", sans-serif;
   font-size: 18px;
   transition: 0.3s;
+  z-index: 1;
 }
 
 .explore-more:hover {
@@ -163,16 +165,12 @@ label[for="menu-toggle"] {
   margin: 20px;
   padding: 20px;
   display: none; /* Hide all quotes by default */
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px; 
+  color: #fff; 
 }
 
-.quote-container {
-  display: flex;
-  position: absolute;
-  flex-wrap: wrap;
-  z-index: 99;
-  width: 100%;
-  padding-left: 15px;
-}
+
 
 .quote {
   padding-left: 0.5rem;
@@ -181,9 +179,30 @@ label[for="menu-toggle"] {
 }
 
 #quote1 {
-  display: block; /* Show only quote 1 on mobile */
+  display: block; 
   word-spacing: 2px;
   text-align: center;
+}
+
+#quote2 {
+  position: relative;
+  display: block; 
+  word-spacing: 2px;
+  top: 70rem;
+}
+
+#quote3 {
+  position: relative;
+  display: block; 
+  word-spacing: 2px;
+  top: 95rem;
+}
+
+#quote4 {
+  position: relative;
+  display: block; 
+  word-spacing: 2px;
+  top: 190rem; 
 }
 
 /* Youtube video */
@@ -191,15 +210,64 @@ label[for="menu-toggle"] {
   position: relative;
   width: 100%;
   height: 0;
-  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  padding-bottom: 56%;
+  z-index: -1;
 }
 
 .video-container iframe {
   position: absolute;
   display: block;
-  top: 65rem;
+  top: 60rem;
   left: 0;
   width: 100%;
   height: 100%;
   box-shadow: 0px 0px 10px rgba(236, 23, 23, 0.658);
+}
+
+/* Literary Works */
+.literary-works {
+  position: relative;
+  display: block;
+  top: 80rem;
+  width: 100%;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  background-color: #f9f4e0; /* Vintage background color */
+  transition: all 0.5s;
+  z-index: -1;
+}
+
+.literary-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 0.5rem;
+  color: #5a4e42; /* Vintage text color */
+}
+
+.works-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centering the works on the screen */
+  margin: 5rem auto;
+}
+
+.work {
+  width: 30%; /* Adjust as needed for responsiveness */
+  text-align: center; /* Centering the images and titles */
+  margin: 1rem;
+}
+
+.work img {
+  max-width: 100%; /* Ensuring the images are responsive */
+  height: auto;
+  display: block; /* Centering the images */
+  margin: 0 auto;
+}
+
+.work h2 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.work a {
+  color: #b1454a;
 }
