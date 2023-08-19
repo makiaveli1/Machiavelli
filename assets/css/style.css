@@ -136,6 +136,47 @@ label[for="menu-toggle"] {
   transform: scale(1.05);
 }
 
+/* Quotes Stylings */
+
+.quote {
+  font-family: "IM Fell Great Primer SC", sans-serif;
+  font-size: 1.3rem;
+  padding: 2rem;
+  text-align: center;
+  display: block;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  color: #fff;
+  position: relative;
+  transform: scale(0.5rem);
+  transition: all 1s ease-out;
+  top: 4rem;
+}
+
+#quote1 {
+  word-spacing: 2px;
+  text-align: center;
+  width: 100%;
+}
+
+#quote2 {
+  position: relative;
+  word-spacing: 2px;
+  top: 70rem;
+}
+
+#quote3 {
+  position: relative;
+  word-spacing: 2px;
+  top: 95rem;
+}
+
+#quote4 {
+  position: relative;
+  word-spacing: 2px;
+  top: 184rem;
+}
+
 /* Biography page hero img */
 
 .biography-hero-image {
@@ -256,47 +297,6 @@ label[for="menu-toggle"] {
   background-color: #fff;
   color: #8c7851;
   border: 2px solid #8c7851;
-}
-
-/* Quotes Stylings */
-
-.quote {
-  font-family: "IM Fell Great Primer SC", sans-serif;
-  font-size: 1.3rem;
-  padding: 2rem;
-  text-align: center;
-  display: block;
-  background: rgba(0, 0, 0, 0.5);
-  padding: 10px;
-  color: #fff;
-  position: relative;
-  transform: scale(0.5rem);
-  transition: all 1s ease-out;
-  top: 4rem;
-}
-
-#quote1 {
-  word-spacing: 2px;
-  text-align: center;
-  width: 100%;
-}
-
-#quote2 {
-  position: relative;
-  word-spacing: 2px;
-  top: 70rem;
-}
-
-#quote3 {
-  position: relative;
-  word-spacing: 2px;
-  top: 95rem;
-}
-
-#quote4 {
-  position: relative;
-  word-spacing: 2px;
-  top: 185rem;
 }
 
 /* Youtube video */
@@ -506,6 +506,8 @@ label[for="menu-toggle"] {
   width: 100%;
   z-index: 1;
 }
+
+
 
 #site-footer-signup {
   list-style-type: none;
