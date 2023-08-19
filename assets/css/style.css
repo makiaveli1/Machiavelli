@@ -376,6 +376,30 @@ label[for="menu-toggle"] {
   color: #b1454a;
 }
 
+/* Invitation Text */
+.invitation-text {
+  position: relative;
+  text-align: center;
+  font-family: "IM Fell Great Primer SC", sans-serif;
+  font-size: 25px;
+  color: #ffffff;
+  padding: 50px;
+  top: 5rem;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+
+
+.invitation-text strong {
+  color: #b1454a;
+}
+
+.invitation-text h2 {
+  padding: 20px;
+}
+
+
 /* Footer Styles */
 #site-footer  {
   list-style-type: none;
