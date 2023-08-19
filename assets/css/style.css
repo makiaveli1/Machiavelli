@@ -67,12 +67,12 @@ header {
 
   /* Hamburger Menu Icon */
 label[for="menu-toggle"] {
+  display: none;
   cursor: pointer;
   font-size: 50px;
-  display: block;
   position: absolute;
   top: 10px;
-  right: 10px;
+  right: 5px;
   height: 2.5rem;
   color: #b1454a;
 }
@@ -86,7 +86,15 @@ label[for="menu-toggle"] {
 }
 
 #menu-icon {
+  display: none;
+}
+
+#menu-toggle {
+  display: none; /* Hide the actual checkbox */
+}
+
+#menu-icon {
   cursor: pointer;
   font-size: 30px;
-  display: block; /* Initially hidden, will be displayed on smaller screens */
+  display: block;
 }
