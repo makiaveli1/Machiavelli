@@ -204,7 +204,7 @@ label[for="menu-toggle"] {
   position: relative;
   display: block; 
   word-spacing: 2px;
-  top: 190rem; 
+  top: 189.7rem; 
 }
 
 /* Youtube video */
@@ -272,4 +272,35 @@ label[for="menu-toggle"] {
 
 .work a {
   color: #b1454a;
+}
+
+/* Footer Styles */
+footer {
+  list-style-type: none;
+  color: #b33a3a; /* Text color */
+  padding: 5px 0; /* Padding around the content */
+  text-align: center; /* Centering the text */
+  word-spacing: 20px; /* Spacing between words */
+  position: relative; /* Absolute positioning */
+  left: 0; /* Aligning to the left */
+  top: 85rem; /* Sticking to the bottom */
+  width: 100%; /* Full width */
+  z-index: 1;
+}
+
+.footer-link {
+  list-style-type: none; /* List style type */
+  text-decoration: none; /* Removing underline */
+  color: #5e3939; /* Text color for links */
+}
+
+#site-footer li {
+  font-size: 170%;
+  padding: 0.5rem;
+}
+
+#site-footer {
+  list-style-type: none;
+  background: linear-gradient(to bottom, #f7efdb, #e2d5b7 60%, #c9b084);
+  box-shadow: #b1454a;
 }
