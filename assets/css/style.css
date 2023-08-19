@@ -139,10 +139,11 @@ label[for="menu-toggle"] {
 /* Biography page hero img */
 
 .biography-hero-image {
+  position: relative; /* Enabling positioning within the container */
+  top: 2rem;
   width: 100%; /* Taking up the full width of the page on mobile */
   height: auto; /* Keeping the original aspect ratio */
   display: block; /* Centering the image */
-  position: relative; /* Enabling positioning within the container */
   z-index: -1;
 }
 
