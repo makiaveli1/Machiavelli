@@ -8,6 +8,23 @@
   box-sizing: border-box;
 }
 
+/* Body */
+body {
+  background-color: #f3e9d2;
+  background-image: linear-gradient(
+      90deg,
+      transparent 50%,
+      rgba(238, 10, 10, 0.04) 50%
+    ),
+    linear-gradient(90deg, transparent 50%, rgba(230, 0, 0, 0.04) 50%),
+    linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4));
+  background-size: 50px 50px, 100px 100px, 100% 100%;
+  background-position: 50% 50%, 0 0, 0 0;
+  font-family: "IM Fell Great Primer SC", sans-serif;
+  margin: 0px;
+  overflow-x: hidden;
+}
+
 /* header */
 header {
   position: relative;
@@ -27,45 +44,41 @@ header {
   z-index: -3;
 }
 
-
-
 #logo-svg {
-    width: 2rem;
-    height: 2rem;
-    fill: #b1454a;
-  }
+  width: 2rem;
+  height: 2rem;
+  fill: #b1454a;
+}
 
+nav {
+  position: absolute;
+  top: 100%;
+  background-color: #c9b084;
+  width: 100%;
+  left: 0;
+  right: 0;
+  height: 10vh;
+  padding: 1rem 1rem;
+  box-shadow: 0 2px 2px #3a3a3a;
+  display: none;
+  text-decoration: none;
+  z-index: 1;
+}
 
-  nav {
-    position: absolute;
-    top: 100%;
-    background-color: #c9b084;
-    width: 100%;
-    left: 0;
-    right: 0;
-    height: 10vh;
-    padding: 1rem 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: none;
-    text-decoration: none;
-    z-index: 1;
-  }
+nav a {
+  text-decoration: none;
+  color: #b1454a;
+  z-index: 1;
+}
 
+nav li {
+  list-style-type: none;
+  justify-content: center;
+  padding-top: 10px;
+  z-index: 1;
+}
 
-  nav a {
-    text-decoration: none;
-    color: #b1454a;
-    z-index: 1;
-  }
-  
-  nav li {
-    list-style-type: none;
-    justify-content: center;
-    padding-top: 10px;
-    z-index: 1;
-  }
-
-  /* Hamburger Menu Icon */
+/* Hamburger Menu Icon */
 label[for="menu-toggle"] {
   display: none;
   cursor: pointer;
@@ -97,4 +110,23 @@ label[for="menu-toggle"] {
   cursor: pointer;
   font-size: 30px;
   display: block;
+}
+
+/* background image */
+.background-img {
+  transition: all 0.9s;
+  position: absolute;
+  background-image: url("../images/images_desktop/VELI-1.webp");
+  background-position: center bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  opacity: 2;
+  z-index: -1;
+}
+
+.background-img:hover {
+  opacity: 0.5;
+  transform: scale(1.05);
 }
