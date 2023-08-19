@@ -130,3 +130,27 @@ label[for="menu-toggle"] {
   opacity: 0.5;
   transform: scale(1.05);
 }
+
+/* explore-more button */
+.explore-more {
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 0.9s;
+  background-color: #b1454a;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  font-family: "IM Fell Great Primer SC", sans-serif;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.explore-more:hover {
+  background-color: #fff; 
+  color: #8c7851; 
+  border: 2px solid #8c7851; 
+}
