@@ -139,19 +139,19 @@ label[for="menu-toggle"] {
 /* Biography page hero img */
 
 .biography-hero-image {
-  position: relative; /* Enabling positioning within the container */
+  position: relative;
   top: 2rem;
-  width: 100%; /* Taking up the full width of the page on mobile */
-  height: auto; /* Keeping the original aspect ratio */
-  display: block; 
+  width: 100%;
+  height: auto;
+  display: block;
   z-index: -1;
 }
 
 .biography-hero-image img {
   width: 100%;
-  height: auto; 
-  display: block; 
-  margin: 0 auto; 
+  height: auto;
+  display: block;
+  margin: 0 auto;
   border-bottom-left-radius: 5%;
   border-bottom-right-radius: 5%;
   transition: all 0.9s;
@@ -164,10 +164,10 @@ label[for="menu-toggle"] {
   width: 100%;
   display: flex;
   flex-direction: row;
-  align-items: center; 
-  text-align: center; 
-  font-family: "IM Fell Great Primer SC", sans-serif; 
-  margin-top: 1rem; 
+  align-items: center;
+  text-align: center;
+  font-family: "IM Fell Great Primer SC", sans-serif;
+  margin-top: 1rem;
   padding-bottom: 1rem;
   transition: all 1s;
   box-shadow: 0px 0px 10px rgba(236, 23, 23, 0.658);
@@ -182,21 +182,21 @@ label[for="menu-toggle"] {
 
 .date {
   font-size: 28px;
-  font-weight: bold; 
-  margin-bottom: 5px; 
+  font-weight: bold;
+  margin-bottom: 5px;
   transition: all 0.9s;
 }
 
 .separator {
   display: block;
-  width: 50%; 
+  width: 50%;
   font-size: large;
 }
 
 .location {
-  font-size: 18px; 
-  font-style: italic; 
-  margin-bottom: 10px; 
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 10px;
   transition: all 1.5s;
 }
 
@@ -206,8 +206,8 @@ label[for="menu-toggle"] {
   top: 3rem;
   width: 100%;
   padding: 1rem;
-  font-family: "IM Fell Great Primer SC", sans-serif; /* Vintage font */
-  background-color: #f9f4e0; /* Vintage background color */
+  font-family: "IM Fell Great Primer SC", sans-serif;
+  background-color: #f9f4e0;
   box-shadow: 0px 0px 10px rgba(236, 23, 23, 0.658);
 }
 
@@ -215,17 +215,17 @@ label[for="menu-toggle"] {
   text-align: center;
   font-size: 28px;
   margin-bottom: 1rem;
-  color: #5a4e42; /* Vintage text color */
+  color: #5a4e42;
 }
 
 .biography-content {
   align-self: center;
-  width: 90%; /* Allowing some padding around the content */
-  max-height: 305rem; /* Setting a maximum height for the scrollable container */
-  margin: 0 auto; /* Centering the container */
-  text-align: justify; /* Justifying the text */
-  line-height: 1.5; /* Improving readability */
-  color: #181614; /* Vintage text color */
+  width: 90%;
+  max-height: 305rem;
+  margin: 0 auto;
+  text-align: justify;
+  line-height: 1.5;
+  color: #181614;
 }
 
 .biography-content h2 {
@@ -253,9 +253,9 @@ label[for="menu-toggle"] {
 }
 
 .explore-more:hover {
-  background-color: #fff; 
-  color: #8c7851; 
-  border: 2px solid #8c7851; 
+  background-color: #fff;
+  color: #8c7851;
+  border: 2px solid #8c7851;
 }
 
 /* Quotes Stylings */
@@ -265,18 +265,15 @@ label[for="menu-toggle"] {
   font-size: 1.3rem;
   padding: 2rem;
   text-align: center;
-  display: block; 
+  display: block;
   background: rgba(0, 0, 0, 0.5);
-  padding: 10px; 
-  color: #fff; 
+  padding: 10px;
+  color: #fff;
   position: relative;
   transform: scale(0.5rem);
   transition: all 1s ease-out;
   top: 4rem;
 }
-
-
-
 
 #quote1 {
   word-spacing: 2px;
@@ -299,7 +296,7 @@ label[for="menu-toggle"] {
 #quote4 {
   position: relative;
   word-spacing: 2px;
-  top: 185rem; 
+  top: 185rem;
 }
 
 /* Youtube video */
@@ -329,7 +326,7 @@ label[for="menu-toggle"] {
   width: 100%;
   padding: 0.5rem 0.5rem 0.5rem 0.5rem;
   background-color: rgba(0, 0, 0, 0.5);
-  background-color: #f9f4e0; 
+  background-color: #f9f4e0;
   transition: all 0.5s;
   z-index: -1;
 }
@@ -338,26 +335,26 @@ label[for="menu-toggle"] {
   text-align: center;
   font-size: 28px;
   margin-bottom: 0.5rem;
-  color: #5a4e42; 
+  color: #5a4e42;
 }
 
 .works-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; 
+  justify-content: center;
   margin: 3rem auto;
 }
 
 .work {
-  width: 30%; 
-  text-align: center; 
+  width: 30%;
+  text-align: center;
   margin: 1rem;
 }
 
 .work img {
-  max-width: 100%; 
+  max-width: 100%;
   height: auto;
-  display: block; 
+  display: block;
   margin: 0 auto;
 }
 
@@ -382,8 +379,6 @@ label[for="menu-toggle"] {
   border-radius: 10px;
   background: rgba(0, 0, 0, 0.3);
 }
-
-
 
 .invitation-text strong {
   color: #b1454a;
@@ -488,46 +483,46 @@ label[for="menu-toggle"] {
 }
 
 /* Footer Styles */
-#site-footer  {
+#site-footer {
   list-style-type: none;
-  color: #b33a3a; 
-  padding: 5px 0; 
-  text-align: center; 
-  word-spacing: 20px; 
+  color: #b33a3a;
+  padding: 5px 0;
+  text-align: center;
+  word-spacing: 20px;
   position: relative;
-  left: 0; 
-  width: 100%; 
+  left: 0;
+  width: 100%;
   z-index: 1;
 }
 
 #site-footer-bio {
   list-style-type: none;
-  color: #b33a3a; 
-  padding: 5px 0; 
-  text-align: center; 
-  word-spacing: 20px; 
+  color: #b33a3a;
+  padding: 5px 0;
+  text-align: center;
+  word-spacing: 20px;
   position: relative;
-  left: 0; 
-  width: 100%; 
+  left: 0;
+  width: 100%;
   z-index: 1;
 }
 
 #site-footer-signup {
   list-style-type: none;
-  color: #b33a3a; 
-  padding: 5px 0; 
-  text-align: center; 
-  word-spacing: 20px; 
+  color: #b33a3a;
+  padding: 5px 0;
+  text-align: center;
+  word-spacing: 20px;
   position: relative;
-  left: 0; 
-  width: 100%; 
+  left: 0;
+  width: 100%;
   z-index: 1;
 }
 
 .footer-link {
-  list-style-type: none; 
-  text-decoration: none; 
-  color: #5e3939; 
+  list-style-type: none;
+  text-decoration: none;
+  color: #5e3939;
 }
 
 #site-footer li {
@@ -542,29 +537,28 @@ label[for="menu-toggle"] {
 
 #site-footer-signup li {
   font-size: 170%;
-  padding: 0.5rem; 
+  padding: 0.5rem;
 }
-
 
 #site-footer {
   list-style-type: none;
   background: linear-gradient(to bottom, #f7efdb, #e2d5b7 60%, #c9b084);
   box-shadow: #b1454a;
-  top: 85rem; 
+  top: 85rem;
 }
 
 #site-footer-bio {
   list-style-type: none;
   background: linear-gradient(to bottom, #f7efdb, #e2d5b7 60%, #c9b084);
   box-shadow: #b1454a;
-  top: 5rem; 
+  top: 5rem;
 }
 
 #site-footer-signup {
   list-style-type: none;
   background: linear-gradient(to bottom, #f7efdb, #e2d5b7 60%, #c9b084);
   box-shadow: #b1454a;
-  top: 10rem; 
+  top: 10rem;
 }
 
 /* Media Queries: Tablet */
