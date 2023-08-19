@@ -263,47 +263,40 @@ label[for="menu-toggle"] {
 .quote {
   font-family: "IM Fell Great Primer SC", sans-serif;
   font-size: 1.3rem;
-  margin: 20px;
-  padding: 20px;
-  display: none; 
+  padding: 2rem;
+  display: block; 
   background: rgba(0, 0, 0, 0.5);
   padding: 10px; 
   color: #fff; 
-}
-
-
-
-.quote {
   position: relative;
-  padding-left: 0.5rem;
   transform: scale(0.5rem);
   transition: all 1s ease-out;
   top: 4rem;
 }
 
+
+
+
 #quote1 {
-  display: block; 
   word-spacing: 2px;
   text-align: center;
+  width: 100%;
 }
 
 #quote2 {
   position: relative;
-  display: block; 
   word-spacing: 2px;
   top: 70rem;
 }
 
 #quote3 {
   position: relative;
-  display: block; 
   word-spacing: 2px;
   top: 95rem;
 }
 
 #quote4 {
   position: relative;
-  display: block; 
   word-spacing: 2px;
   top: 185rem; 
 }
@@ -413,6 +406,7 @@ label[for="menu-toggle"] {
   font-family: "IM Fell Great Primer SC", sans-serif;
   color: #3a3a3a;
   box-shadow: 0px 0px 10px rgba(236, 23, 23, 0.658);
+  border-radius: 10px;
 }
 
 /* Join Us Heading */
@@ -472,6 +466,24 @@ label[for="menu-toggle"] {
 .signup-form button:hover {
   background-color: #903a35;
   transition: all 0.8s;
+}
+
+/* Map Container */
+.map-container {
+  position: relative;
+  top: 10rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.map-container iframe {
+  border: 2px solid #b1454a;
+  box-shadow: 0px 0px 10px rgba(236, 23, 23, 0.658);
+  border-radius: 10px;
 }
 
 /* Footer Styles */
@@ -551,5 +563,70 @@ label[for="menu-toggle"] {
   list-style-type: none;
   background: linear-gradient(to bottom, #f7efdb, #e2d5b7 60%, #c9b084);
   box-shadow: #b1454a;
-  top: 90rem; 
+  top: 10rem; 
+}
+
+/* Media Queries: Tablet */
+@media (min-width: 768px) {
+  #menu-icon {
+    cursor: pointer;
+    font-size: 30px;
+    display: block;
+  }
+
+  header {
+    margin: 0;
+  }
+
+  #heading {
+    position: relative;
+    top: 4rem;
+    font-size: 6rem;
+    text-align: center;
+    color: #b1454a;
+    padding-top: 10px;
+  }
+
+  .heading-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .background-img {
+    top: 8rem;
+  }
+
+  .quote-container {
+    flex-direction: column;
+  }
+
+  #quote1 {
+    position: relative;
+    padding-left: 0;
+    color: #000;
+    top: 3rem;
+    display: block;
+    width: 40%; /* Adjust width */
+    text-align: left;
+    background: none;
+  }
+
+  #quote2 {
+    display: block;
+    width: 30%; /* Adjust width */
+    right: 60%; /* Aligning to the left */
+    text-align: right; /* Aligning to the left */
+  }
+
+  .quote-group {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  #site-footer {
+    list-style-type: none;
+    background: linear-gradient(to bottom, #f7efdb, #e2d5b7 60%, #c9b084);
+    box-shadow: #b1454a;
+  }
 }
