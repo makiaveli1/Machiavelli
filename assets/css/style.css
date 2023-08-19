@@ -401,6 +401,18 @@ label[for="menu-toggle"] {
   z-index: 1;
 }
 
+#site-footer-signup {
+  list-style-type: none;
+  color: #b33a3a; 
+  padding: 5px 0; 
+  text-align: center; 
+  word-spacing: 20px; 
+  position: relative;
+  left: 0; 
+  width: 100%; 
+  z-index: 1;
+}
+
 .footer-link {
   list-style-type: none; 
   text-decoration: none; 
@@ -417,6 +429,12 @@ label[for="menu-toggle"] {
   padding: 0.5rem;
 }
 
+#site-footer-signup li {
+  font-size: 170%;
+  padding: 0.5rem; 
+}
+
+
 #site-footer {
   list-style-type: none;
   background: linear-gradient(to bottom, #f7efdb, #e2d5b7 60%, #c9b084);
@@ -429,4 +447,11 @@ label[for="menu-toggle"] {
   background: linear-gradient(to bottom, #f7efdb, #e2d5b7 60%, #c9b084);
   box-shadow: #b1454a;
   top: 5rem; 
+}
+
+#site-footer-signup {
+  list-style-type: none;
+  background: linear-gradient(to bottom, #f7efdb, #e2d5b7 60%, #c9b084);
+  box-shadow: #b1454a;
+  top: 90rem; 
 }
