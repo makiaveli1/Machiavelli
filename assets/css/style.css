@@ -10,7 +10,7 @@
 
 /* Body */
 body {
-  background-color: #f3e9d2;
+  background-color: rgba(0, 0, 0, 0.2);
   background-image: linear-gradient(
       90deg,
       transparent 50%,
@@ -127,7 +127,7 @@ label[for="menu-toggle"] {
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
-  opacity: 2;
+  opacity: 3;
   z-index: -1;
 }
 
@@ -264,6 +264,7 @@ label[for="menu-toggle"] {
   font-family: "IM Fell Great Primer SC", sans-serif;
   font-size: 1.3rem;
   padding: 2rem;
+  text-align: center;
   display: block; 
   background: rgba(0, 0, 0, 0.5);
   padding: 10px; 
@@ -582,6 +583,7 @@ label[for="menu-toggle"] {
     position: relative;
     top: 4rem;
     font-size: 6rem;
+    width: 100%;
     text-align: center;
     color: #b1454a;
     padding-top: 10px;
@@ -593,38 +595,36 @@ label[for="menu-toggle"] {
   }
 
   .background-img {
-    top: 8rem;
-  }
-
-  .quote-container {
-    flex-direction: column;
+    top: 20rem;
   }
 
   #quote1 {
-    position: relative;
-    padding-left: 0;
-    color: #000;
-    top: 3rem;
-    display: block;
-    width: 40%; /* Adjust width */
-    text-align: left;
-    background: none;
+    top: 5rem;
+    width: 100%;
   }
 
   #quote2 {
-    display: block;
-    width: 30%; /* Adjust width */
-    right: 60%; /* Aligning to the left */
-    text-align: right; /* Aligning to the left */
+    top: 80rem;
   }
 
-  .quote-group {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+  #quote3 {
+    top: 125rem;
+  }
+
+  #quote4 {
+    top: 255rem;
+  }
+
+  .video-container {
+    top: 20rem;
+  }
+
+  .literary-works {
+    top: 100rem;
   }
 
   #site-footer {
+    top: 110rem;
     list-style-type: none;
     background: linear-gradient(to bottom, #f7efdb, #e2d5b7 60%, #c9b084);
     box-shadow: #b1454a;
