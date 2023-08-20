@@ -155,7 +155,7 @@ label[for="menu-toggle"] {
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
   position: relative;
-  transform: scale(0.5rem);
+  transform: scale(0.9);
   transition: all 1s ease-out;
   top: 4rem;
   word-spacing: 2px;
@@ -469,7 +469,6 @@ iframe {
   width: 100vw;
   z-index: 1;
   background: linear-gradient(to bottom, #f7efdb, #e2d5b7 60%, #c9b084);
-  box-shadow: #b1454a;
   top: 85rem;
 }
 
@@ -484,7 +483,6 @@ iframe {
   width: 100%;
   z-index: 1;
   background: linear-gradient(to bottom, #f7efdb, #e2d5b7 60%, #c9b084);
-  box-shadow: #b1454a;
   top: 5rem;
 }
 
@@ -499,7 +497,6 @@ iframe {
   width: 100%;
   z-index: 1;
   background: linear-gradient(to bottom, #f7efdb, #e2d5b7 60%, #c9b084);
-  box-shadow: #b1454a;
   top: 13rem;
 }
 
@@ -525,11 +522,9 @@ iframe {
 }
 
 #site-footer-bio {
-
 }
 
 #site-footer-signup {
-
 }
 
 /* Media Queries: Tablet */
