@@ -30,6 +30,11 @@ main {
   flex: 1 0 auto;
 }
 
+/* section {
+  position: relative; 
+  text-align: center;
+} */
+
 /* header */
 header {
   position: fixed;
@@ -123,10 +128,11 @@ label[for="menu-toggle"] {
   transition: all 0.9s;
   position: absolute;
   background-image: url("../images/images_desktop/VELI-1.webp");
-  background-position: center bottom;
+  background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  height: 100%;
+  object-fit: contain;
+  height: 100vh;
   width: 100%;
   opacity: 3;
   z-index: -1;
@@ -163,19 +169,19 @@ label[for="menu-toggle"] {
 #quote2 {
   position: relative;
   word-spacing: 2px;
-  top: 70rem;
+  top: 65rem;
 }
 
 #quote3 {
   position: relative;
   word-spacing: 2px;
-  top: 95rem;
+  top: 75rem;
 }
 
 #quote4 {
   position: relative;
   word-spacing: 2px;
-  top: 177rem;
+  top: 6rem;
 }
 
 /* Biography page hero img */
@@ -305,14 +311,14 @@ label[for="menu-toggle"] {
   position: relative;
   width: 100%;
   height: 0;
-  padding-bottom: 56%;
+  padding: 56.25% 0 0 0;
   z-index: -1;
 }
 
 .video-container iframe {
   position: absolute;
   display: block;
-  top: 60rem;
+  top: 70rem;
   left: 0;
   width: 100%;
   height: 100%;
@@ -607,11 +613,11 @@ label[for="menu-toggle"] {
   }
 
   #quote3 {
-    top: 125rem;
+    top: 95rem;
   }
 
   #quote4 {
-    top: 243rem;
+    top: 7rem;
   }
 
   .video-container {
@@ -623,7 +629,7 @@ label[for="menu-toggle"] {
   }
 
   #site-footer {
-    top: 110rem;
+    top: 108rem;
     list-style-type: none;
     background: linear-gradient(to bottom, #f7efdb, #e2d5b7 60%, #c9b084);
     box-shadow: #b1454a;
