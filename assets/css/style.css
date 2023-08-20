@@ -667,20 +667,12 @@ label[for="menu-toggle"] {
 
 
   .biography-hero-image img {
-    border-bottom-left-radius: 0;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .biography-hero-image {
-    width: 30%;
-    float: left;
-  }
-
-  .work {
-    width: 30%;
-  }
-
-  .works-container {
-    position: relative;
+    width: 100%;
   }
 
   .video-container {
@@ -699,15 +691,12 @@ label[for="menu-toggle"] {
   }
 
   .separator {
-    display: block;
     font-size: 50px;
-    font-weight: 10;
-    margin: 10px;
   }
 
   .dates {
     position: relative;
-    top: 1rem;
+    top: 3rem;
     left: 10%;
     right: 40%;
     width: 80%;
@@ -718,33 +707,8 @@ label[for="menu-toggle"] {
     margin-top: 1px;
   }
 
-  .born,
-  .died,
-  .date,
-  .separator,
-  .location {
-    text-align: center; /* Centering the text */
-  }
-
   .biography-section {
-    position: absolute;
-    width: 50%;
-    padding-right: 1rem;
-    left: 40%;
-    z-index: -1;
-  }
-
-  .biography-content {
-    align-self: center;
-    width: 90%; /* Allowing some padding around the content */
-    max-height: 400px; /* Setting a maximum height for the scrollable container */
-    padding: 1rem;
-  }
-
-  .biography-title {
-    font-size: 28px;
-    margin-bottom: 1rem;
-    color: #5a4e42; /* Vintage text color */
+    top: 10rem;
   }
 
   .biography-section,
@@ -755,5 +719,31 @@ label[for="menu-toggle"] {
 
   #site-footer {
     top: 100rem;
+  }
+
+  #site-footer-bio {
+    top: 12rem;
+  }
+}
+
+/* Desktop and upwards */
+@media (min-width: 1200px) {
+  #quote2 {
+    top: 85rem;
+  }
+
+  #quote3 {
+    top: 158rem;
+  }
+
+  .video-container {
+    top: 20rem;
+    width: 100vw;
+    z-index: -1;
+  }
+
+  .video-container iframe {
+    width: 100%;
+    height: 100%;
   }
 }
