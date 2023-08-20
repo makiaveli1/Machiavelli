@@ -377,7 +377,6 @@ iframe {
   position: relative;
   top: 10rem;
   width: 80%;
-  max-width: 600px;
   margin: 0 auto;
   padding: 30px;
   background-color: #f7efdb;
@@ -387,6 +386,7 @@ iframe {
   color: #3a3a3a;
   box-shadow: 0px 0px 10px rgba(236, 23, 23, 0.658);
   border-radius: 10px;
+  z-index: 5;
 }
 
 /* Join Us Heading */
@@ -449,18 +449,9 @@ iframe {
 }
 
 /* Map Container */
-.map-container {
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px 0;
-  padding: 20px;
-}
-
 .map-container iframe {
-  top: 10rem;
+  top: 12rem;
+  width: 80%;
   border: 2px solid #b1454a;
   box-shadow: 0px 0px 10px rgba(236, 23, 23, 0.658);
   border-radius: 10px;
@@ -477,6 +468,9 @@ iframe {
   left: 0;
   width: 100vw;
   z-index: 1;
+  background: linear-gradient(to bottom, #f7efdb, #e2d5b7 60%, #c9b084);
+  box-shadow: #b1454a;
+  top: 85rem;
 }
 
 #site-footer-bio {
@@ -489,6 +483,9 @@ iframe {
   left: 0;
   width: 100%;
   z-index: 1;
+  background: linear-gradient(to bottom, #f7efdb, #e2d5b7 60%, #c9b084);
+  box-shadow: #b1454a;
+  top: 5rem;
 }
 
 #site-footer-signup {
@@ -501,6 +498,9 @@ iframe {
   left: 0;
   width: 100%;
   z-index: 1;
+  background: linear-gradient(to bottom, #f7efdb, #e2d5b7 60%, #c9b084);
+  box-shadow: #b1454a;
+  top: 13rem;
 }
 
 .footer-link {
@@ -524,25 +524,12 @@ iframe {
   padding: 0.5rem;
 }
 
-#site-footer {
-  list-style-type: none;
-  background: linear-gradient(to bottom, #f7efdb, #e2d5b7 60%, #c9b084);
-  box-shadow: #b1454a;
-  top: 85rem;
-}
-
 #site-footer-bio {
-  list-style-type: none;
-  background: linear-gradient(to bottom, #f7efdb, #e2d5b7 60%, #c9b084);
-  box-shadow: #b1454a;
-  top: 5rem;
+
 }
 
 #site-footer-signup {
-  list-style-type: none;
-  background: linear-gradient(to bottom, #f7efdb, #e2d5b7 60%, #c9b084);
-  box-shadow: #b1454a;
-  top: 10rem;
+
 }
 
 /* Media Queries: Tablet */
@@ -679,17 +666,12 @@ iframe {
     width: 50%;
   }
 
-  .map-container {
-    top: 10rem;
-    width: 50%;
-  }
-
   .map-container iframe {
     position: relative;
-    left: 110%;
-    top: -27.5rem;
-    width: 90%;
-    height: 61vh;
+    top: -15rem;
+    left: 25%;
+    width: 45%;
+    height: 66vh;
   }
 
   #site-footer {
