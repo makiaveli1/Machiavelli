@@ -254,7 +254,7 @@ label[for="menu-toggle"] {
 .biography-content {
   align-self: center;
   width: 90%;
-  max-height: 305rem;
+  height: 100%;
   margin: 0 auto;
   text-align: justify;
   line-height: 1.5;
