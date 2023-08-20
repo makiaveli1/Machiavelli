@@ -22,6 +22,7 @@ body {
   background-position: 50% 50%, 0 0, 0 0;
   font-family: "IM Fell Great Primer SC", sans-serif;
   margin: 0px;
+  width: 100%;
   overflow-x: hidden;
 }
 
@@ -37,7 +38,7 @@ header {
   align-items: center;
   background: linear-gradient(to bottom, #f7efdb, #e2d5b7 60%, #c9b084);
   padding: 1rem 1rem;
-  width: 100vw;
+  width: 100%;
   z-index: 99;
 }
 
@@ -57,7 +58,7 @@ header {
 
 nav {
   position: absolute;
-  top: 100%;
+  top: 6vh;
   background-color: #c9b084;
   width: 100%;
   left: 0;
@@ -141,8 +142,7 @@ label[for="menu-toggle"] {
 .quote {
   font-family: "IM Fell Great Primer SC", sans-serif;
   font-size: 1.3rem;
-  padding: 2rem;
-  text-align: center;
+  align-content: center;
   display: flex;
   justify-content: center;
   background: rgba(0, 0, 0, 0.5);
@@ -152,6 +152,7 @@ label[for="menu-toggle"] {
   transform: scale(0.5rem);
   transition: all 1s ease-out;
   top: 4rem;
+  width: 100%;
 }
 
 #quote1 {
@@ -174,7 +175,7 @@ label[for="menu-toggle"] {
 #quote4 {
   position: relative;
   word-spacing: 2px;
-  top: 184rem;
+  top: 177rem;
 }
 
 /* Biography page hero img */
@@ -352,7 +353,7 @@ label[for="menu-toggle"] {
 }
 
 .work img {
-  max-width: 100%;
+  max-width: 25vw;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -491,7 +492,7 @@ label[for="menu-toggle"] {
   word-spacing: 20px;
   position: relative;
   left: 0;
-  width: 100%;
+  width: 100vw;
   z-index: 1;
 }
 
@@ -571,13 +572,15 @@ label[for="menu-toggle"] {
 
   header {
     margin: 0;
+    left: 0;
+    right: 0;
   }
 
   #heading {
     position: relative;
     top: 4rem;
     font-size: 6rem;
-    width: 100%;
+    width: 100vw;
     text-align: center;
     color: #b1454a;
     padding-top: 10px;
@@ -593,8 +596,10 @@ label[for="menu-toggle"] {
   }
 
   #quote1 {
+    display: flex;
+    justify-content: center;
     top: 5rem;
-    width: 100%;
+    width: 100vw;
   }
 
   #quote2 {
@@ -606,7 +611,7 @@ label[for="menu-toggle"] {
   }
 
   #quote4 {
-    top: 255rem;
+    top: 243rem;
   }
 
   .video-container {
@@ -625,19 +630,20 @@ label[for="menu-toggle"] {
   }
 }
 
-/* Desktop */
-@media (min-width: 1024px) {
+/* Laptop and upwards */
+@media (min-width: 992px) {
   header {
-    padding: 0.5rem;
+    padding: 0.8rem 2rem;
+    margin: 0;
+    width: 100vw;
   }
 
   nav {
     display: flex;
     justify-content: center;
-    height: 70%;
+    height: 5vh;
     position: relative;
-    left: 0;
-    right: 0;
+    top: 0;
     background: none;
     box-shadow: none;
   }
@@ -647,13 +653,16 @@ label[for="menu-toggle"] {
     margin: 0 15px;
   }
 
-  #menu-toggle,
-  label[for="menu-toggle"] {
-    display: none; /* Hide checkbox and label */
+  #menu-icon {
+    display: none;
+  }
+
+  #quote2 {
+    top: 75rem;
   }
 
   #quote4 {
-    top: 175rem;
+    top: 233rem;
   }
 
 
@@ -666,14 +675,17 @@ label[for="menu-toggle"] {
     float: left;
   }
 
+  .work {
+    width: 30%;
+  }
+
   .works-container {
     position: relative;
-    flex-wrap: nowrap;
   }
 
   .video-container {
-    top: 70rem;
-    width: 100%;
+    top: 10rem;
+    width: 100vw;
     z-index: -1;
   }
 
@@ -683,7 +695,7 @@ label[for="menu-toggle"] {
   }
 
   .literary-works {
-    top: 40rem;
+    top: 90rem;
   }
 
   .separator {
@@ -742,6 +754,6 @@ label[for="menu-toggle"] {
   }
 
   #site-footer {
-    top: 170vw;
+    top: 100rem;
   }
 }
