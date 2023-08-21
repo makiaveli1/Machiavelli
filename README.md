@@ -18,7 +18,7 @@ The primary goal of the Niccolò Machiavelli website is to create a one-stop des
 
 The Niccolò Machiavelli website is designed to be fully responsive across various devices and screen sizes. The screenshot below showcases how the website adapts to different displays.
 
-![Responsive Screenshot](responsive_screenshot.png) _Responsive Screenshot of the Website_
+![Responsive Screenshot](assets/images/docs/responsivescreenshot..png) _Responsive Screenshot of the Website_
 
 ## Table of Contents
 
@@ -52,15 +52,21 @@ The website caters to researchers, students, scholars, historians, and anyone in
 
 ### Live Website Link
 
-[Visit the Niccolò Machiavelli website](#) (Link to the live website if hosted online)
-
+[Visit the Niccolò Machiavelli website](#https://makiaveli1.github.io/Machiavelli/)
 ### Content
 
 The Niccolò Machiavelli website is divided into key sections, each serving a specific purpose:
 
 - **Home Page**: Introduction to Machiavelli's life and works.
+![Home Page](assets/images/docs/Homepage.png)
+![Home Page](assets/images/docs/Literarysection.png)
+
 - **Biography Page**: In-depth exploration of Machiavelli's life, achievements, and timeline.
-- **Signup Page**: Registration for newsletters, updates, and community participation.
+
+![Biography Page](assets/images/docs/Biography.png)
+
+- **Signup Page**: Registration for upcoming machiavellian summit.
+![Signup Page](assets/images/docs/signuppage.png)
 
 The content is curated to engage users in an immersive experience, enabling them to explore, learn, and connect with the world of Machiavelli.
 
@@ -103,15 +109,15 @@ Images of Machiavelli, his writings, and Renaissance art are used to visually en
 
 #### Desktop Wireframe
 
-![Desktop Wireframe](assets\images\Wireframes\Desktop.png)
+![Desktop Wireframe](assets/images/Wireframes/Desktop.png)
 
 #### Mobile Wireframe
 
-![Mobile Wireframe](assets\images\Wireframes\Mobile.png)
+![Mobile Wireframe](assets/images/Wireframes/Mobile.png)
 
 #### Tablet Wireframe
 
-![Tablet Wireframe](assets\images\Wireframes\Tablet.png)
+![Tablet Wireframe](assets/images/Wireframes/Tablet.png)
 
 The wireframes showcase the design layout for different screen types, providing a visual guide for the development process.
 
@@ -120,21 +126,31 @@ The wireframes showcase the design layout for different screen types, providing 
 ### Home Page
 
 - **Header**: Contains the logo and main navigation.
-- **Main Content**: Introduction to Machiavelli's life and works.
+![Header**](assets/images/docs/Navbar.png)
+- **Literary Works**: Access to Machiavelli's key writings.
+![Main Content**](assets/images/docs/Literarysection.png)
 - **Footer**: Links to social media and other resources.
+![Footer**](assets/images/docs/footer.png)
 
 ### Biography Page
 
 - **Header**: Navigation to other sections.
+![Header**](assets/images/docs/Navbar.png)
 - **Timeline**: Detailed timeline of Machiavelli's life.
-- **Literary Works**: Access to Machiavelli's key writings.
+![Timeline**](assets/images/docs/Biography.png)
 - **Footer**: Additional navigation and resources.
+![Footer**](assets/images/docs/footer.png)
 
 ### Signup Page
 
 - **Header**: Site navigation.
+![Header**](assets/images/docs/Navbar.png)
 - **Registration Form**: Signup form for Machiavellian summit.
+![Registration Form**](assets/images/docs/regform.png)
+- **Map**: A map displaying the location of the summit.
+![Map**](assets/images/docs/map.png)
 - **Footer**: Additional information and links.
+![Footer**](assets/images/docs/footer.png)
 
 The features are designed to offer a comprehensive and engaging user experience, aligned with the educational and literary goals of the site.
 
