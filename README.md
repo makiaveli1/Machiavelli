@@ -178,10 +178,14 @@ The features are designed to offer a comprehensive and engaging user experience,
 ### Validation Tools
 
 - **HTML validation**: [W3C HTML Validator](https://validator.w3.org/nu/)
+![HTML validation](assets/images/docs/htmlcheck.png)
 - **CSS validation**: [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+![CSS validation](assets/images/docs/csscheck.png)
 - **Lighthouse Tool**: Used for performance analysis.
+![Lighthouse tool Mobile](assets/images/docs/lighthouse1.png)
+![Lighthouse tool Mobile](assets/images/docs/lighthouse2.png)
 - **Wave Validation**: For accessibility validation.
-
+![Wave Validation](assets/images/docs/wavevalidation.png)
 ## Accessibility
 
 The Niccolò Machiavelli website is designed with accessibility in mind, ensuring that users with disabilities can navigate and interact with the content. Key accessibility features include:
@@ -238,17 +242,6 @@ The development process of the Niccolò Machiavelli website was carried out thro
 - **Usability Testing**: Ensuring user-friendly navigation.
 - **Performance Testing**: Analyzing load times and responsiveness.
 - **Accessibility Evaluation**: Checking compliance with accessibility standards.
-- ![Testing Placeholder](testing_placeholder.png) _Image Placeholder for Testing Stage_
-
-### Deployment
-
-- **GitHub Deployment**: Utilizing GitHub for hosting.
-- **Final Checks**: Ensuring all elements are functioning as intended.
-- **Launch**: Making the website live and accessible.
-- **Monitoring**: Regular checks for issues and updates.
-
-
-The development process was executed with attention to detail, adherence to best practices, and a focus on delivering a high-quality user experience.
 
 ## Challenges and Solutions
 
@@ -256,9 +249,10 @@ During the development of the Niccolò Machiavelli website, a few major challeng
 
 ### Performance Optimization
 
-- **Challenge**: Ensuring optimal load times and responsiveness.
+- **Challenge**: Ensuring optimal load times and responsiveness. Major issues were encountered when testing performance due to presence of an iframe containing a youtube video which affected lighthouse performance making the it flunctuate between low and high performance digits.
 - **Solution**: Utilizing strategies such as reducing image sizes and quality, converting images to webp format, and optimizing code.
-- ![Performance Optimization Placeholder](performance_optimization_placeholder.png) _Image Placeholder for Performance Optimization_
+- ![Performance Optimization Placeholder](assets\images\docs\lighthouse1.png)
+- ![Lighthouse tool Mobile](assets/images/docs/lighthouse2.png)
 
 ### Responsiveness Issues
 
@@ -267,8 +261,6 @@ During the development of the Niccolò Machiavelli website, a few major challeng
 
 
 The challenges were addressed with a methodical approach, leveraging best practices and innovative solutions to ensure a polished and user-friendly experience.
-
-## Performance Optimization
 
 Performance optimization was a key focus in the development of the Niccolò Machiavelli website. Here's a detailed look at the strategies implemented to enhance performance:
 

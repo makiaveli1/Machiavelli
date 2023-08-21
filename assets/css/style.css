@@ -164,16 +164,96 @@ label[for="menu-toggle"] {
 }
 
 #quote2 {
-  top: 65rem;
+  top: 3rem;
 }
 
 #quote3 {
-  top: 75rem;
+  top: 7rem;
 }
 
 #quote4 {
   word-spacing: 2px;
   top: 6rem;
+}
+
+/* explore-more button */
+.explore-more {
+  position: absolute;
+  top: 45rem;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 0.9s;
+  background-color: #b1454a;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  font-family: "IM Fell Great Primer SC", sans-serif;
+  font-size: 18px;
+  transition: 0.3s;
+  z-index: 1;
+}
+
+.explore-more:hover {
+  background-color: #fff;
+  color: #8c7851;
+  border: 2px solid #8c7851;
+}
+
+/* Youtube video */
+.video {
+width: 100%;
+margin-top: 70rem;
+}
+
+/* Literary Works */
+.literary-works {
+  position: relative;
+  display: block;
+  top: 5rem;
+  width: 100%;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #f9f4e0;
+  transition: all 0.5s;
+  z-index: -1;
+}
+
+.literary-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 0.5rem;
+  color: #5a4e42;
+}
+
+.works-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 3rem auto;
+}
+
+.work {
+  width: 30%;
+  text-align: center;
+  margin: 1rem;
+}
+
+.work img {
+  max-width: 25vw;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.work h2 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.work a {
+  color: #b1454a;
 }
 
 /* Biography page hero img */
@@ -266,85 +346,7 @@ label[for="menu-toggle"] {
   margin-bottom: 10px;
 }
 
-/* explore-more button */
-.explore-more {
-  position: absolute;
-  top: 45rem;
-  left: 50%;
-  transform: translateX(-50%);
-  transition: all 0.9s;
-  background-color: #b1454a;
-  color: #fff;
-  text-decoration: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  border: 2px solid #fff;
-  font-family: "IM Fell Great Primer SC", sans-serif;
-  font-size: 18px;
-  transition: 0.3s;
-  z-index: 1;
-}
 
-.explore-more:hover {
-  background-color: #fff;
-  color: #8c7851;
-  border: 2px solid #8c7851;
-}
-
-/* Youtube video */
-.video {
-width: 100%;
-margin-top: 70rem;
-}
-
-/* Literary Works */
-.literary-works {
-  position: relative;
-  display: block;
-  top: 78rem;
-  width: 100%;
-  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-  background-color: rgba(0, 0, 0, 0.5);
-  background-color: #f9f4e0;
-  transition: all 0.5s;
-  z-index: -1;
-}
-
-.literary-title {
-  text-align: center;
-  font-size: 28px;
-  margin-bottom: 0.5rem;
-  color: #5a4e42;
-}
-
-.works-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 3rem auto;
-}
-
-.work {
-  width: 30%;
-  text-align: center;
-  margin: 1rem;
-}
-
-.work img {
-  max-width: 25vw;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-.work h2 {
-  font-size: 20px;
-  margin-top: 10px;
-}
-
-.work a {
-  color: #b1454a;
-}
 
 /* Invitation Text */
 .invitation-text {
