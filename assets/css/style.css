@@ -521,12 +521,6 @@ iframe {
   padding: 0.5rem;
 }
 
-#site-footer-bio {
-}
-
-#site-footer-signup {
-}
-
 /* Media Queries: Tablet */
 @media (min-width: 768px) {
   #menu-icon {
