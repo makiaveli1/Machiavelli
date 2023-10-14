@@ -164,7 +164,10 @@ label[for="menu-toggle"] {
 }
 
 #quote2 {
-  top: 3rem;
+  display: flex;
+  justify-content: center;
+  top: 65rem;
+  width: 100vw;
 }
 
 #quote3 {
@@ -209,9 +212,8 @@ margin-top: 70rem;
 
 /* Literary Works */
 .literary-works {
-  position: relative;
   display: block;
-  top: 5rem;
+  top: 10rem;
   width: 100%;
   padding: 0.5rem 0.5rem 0.5rem 0.5rem;
   background-color: rgba(0, 0, 0, 0.5);
@@ -461,27 +463,27 @@ margin-top: 70rem;
   padding: 5px 0;
   text-align: center;
   word-spacing: 20px;
-  position: relative;
-  left: 0;
-  width: 100vw;
-  z-index: 1;
+  position: relative;  /* Changed from absolute to fixed */
+  top: 20rem;        /* Align to the bottom */
+  width: 100%;      /* 100% of the viewport width */
+  z-index: 1000;
   background: linear-gradient(to bottom, #f7efdb, #e2d5b7 60%, #c9b084);
-  top: 85rem;
 }
 
+
 #site-footer-bio {
+  position: relative;
+  bottom: auto;
+  z-index: 0;
   list-style-type: none;
   color: #b33a3a;
   padding: 5px 0;
   text-align: center;
   word-spacing: 20px;
-  position: relative;
-  left: 0;
   width: 100%;
-  z-index: 1;
   background: linear-gradient(to bottom, #f7efdb, #e2d5b7 60%, #c9b084);
-  top: 5rem;
 }
+
 
 #site-footer-signup {
   list-style-type: none;
@@ -558,6 +560,13 @@ margin-top: 70rem;
     width: 100vw;
   }
 
+  #quote2 {
+    display: flex;
+    justify-content: center;
+    top: 65rem;
+    width: 100vw;
+  }
+
   .biography-hero-image {
     width: 80vw;
     height: 60vh;
@@ -621,7 +630,7 @@ margin-top: 70rem;
   }
 
   .literary-works {
-    top: 90rem;
+    top: ;
   }
 
   .separator {
@@ -658,10 +667,6 @@ margin-top: 70rem;
     left: 25%;
     width: 45%;
     height: 66vh;
-  }
-
-  #site-footer {
-    top: 100rem;
   }
 
   #site-footer-bio {
