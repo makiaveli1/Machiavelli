@@ -50,7 +50,7 @@ header {
 #heading {
   font-size: 2.5rem;
   text-align: center;
-  color: #b1454a;
+  color: #cf1720;
   padding-top: 80px;
   z-index: -3;
 }
@@ -97,7 +97,6 @@ nav li {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  object-fit: contain;
   height: 100vh;
   width: 100%;
   opacity: 3;
@@ -449,6 +448,7 @@ margin-top: 70rem;
 
 /* Map Container */
 .map-container iframe {
+  position: relative;
   top: 12rem;
   width: 80%;
   border: 2px solid #b1454a;
